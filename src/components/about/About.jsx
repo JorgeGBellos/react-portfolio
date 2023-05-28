@@ -4,12 +4,15 @@ import ME from '../../assets/me-about.jpg'
 import {BiAward} from 'react-icons/bi'
 import {FiUsers} from 'react-icons/fi'
 import {AiOutlineFolder} from 'react-icons/ai'
+import { useTranslation } from 'react-i18next'
 
 export const About = () => {
+  const [ t, i18n ] = useTranslation("global");
+
   return (
     <section id="about">
-      <h5>Get To Know</h5>
-      <h2>About Me</h2>
+      <h5>{t("about.getToKnow")}</h5>
+      <h2>{t("about.aboutMe")}</h2>
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me__image">
@@ -20,29 +23,26 @@ export const About = () => {
           <div className="about__cards">
             <article className="about__card">
               <BiAward className='about__icon'/>
-              <h5>Experience</h5>
-              <small>3+ Years Working</small>
+              <h5>{t("about.experience")}</h5>
+              <small>{t("about.experienceText")}</small>
             </article>
             
             <article className="about__card">
               <FiUsers className='about__icon'/>
-              <h5>Clients</h5>
-              <small>200+ Worldwide</small>
+              <h5>{t("about.clients")}</h5>
+              <small>{t("about.clientsText")}</small>
             </article>
 
             <article className="about__card">
               <AiOutlineFolder className='about__icon'/>
-              <h5>Projects</h5>
-              <small>80+ Completed projects</small>
+              <h5>{t("about.projects")}</h5>
+              <small>{t("about.projectsText")}</small>
             </article>
           </div>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Officia maiores corrupti quos nostrum? Velit commodi autem non 
-            id ipsum voluptas quidem odit, eius aliquid minima perspiciatis 
-            doloribus necessitatibus nobis veritatis.
+            {t("about.aboutText")}
           </p>
-          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+          <a href="#contact" className='btn btn-primary'>{t("about.talk")}</a>
         </div>
       </div>
     </section>

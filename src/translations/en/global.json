@@ -1,0 +1,70 @@
+{
+    "header":{
+        "hello": "Hello I'm",
+        "career": "Software Engineer",
+        "scroll": "Scroll Down",
+        "cv": "Download CV",
+        "talk": "Let's Talk!"
+    },
+    "about":{
+        "getToKnow": "Get To Know",
+        "aboutMe": "About Me",
+        "experience": "Experience",
+        "experienceText": "3+ years working",
+        "clients": "Clients",
+        "clientsText": "30+ Happy Clients!",
+        "projects": "Projects",
+        "projectsText": "35+ Completed Projects",
+        "aboutText" : "Hi, I'm Jorge Bellos! Passionate with experience in Web Development. Always looking for the best alternatives inside and outside the world of software development. Full of desire to improve my life and the life of people around me.",
+        "talk": "Let's Talk!"
+    },
+    "experience": {
+        "skillsIHave": "What Skills I Have",
+        "myExperience": "My Experience",
+        "frontend": "Front-End Development",
+        "backend": "Back-End Development",
+        "otherTechs": "Others Technologies",
+        "basic": "Basic",
+        "intermediate": "Intermediate",
+        "experienced": "Experienced"
+    },
+    "services":{
+       "offer":"What I Offer",
+       "services":"Services",
+       "service1":{
+          "title":"UI/UX Design",
+          "feature":"Wireframes & Prototypes",
+          "feature2":"Graphic Design",
+          "feature3":"Visual Design",
+          "feature4":"Interactive Design"
+       },
+       "service2":{
+          "title":"Web Development",
+          "feature":"Development and maintenance of websites",
+          "feature2":"Ecommerce",
+          "feature3":"Landing Pages",
+          "feature4":"Content Management Systems (CMS)"
+       },
+       "service3":{
+          "title":"Webmaster",
+          "feature":"SEO",
+          "feature2":"Service Migration",
+          "feature3":"Private Integrations",
+          "feature4":"Systems update"
+       }
+    },
+    "portfolio":{
+       "recentWork":"My Recent Work",
+       "portfolio":"Portfolio",
+       "visit":"Visit Project"
+    },
+    "contact":{
+       "contact":"Contact",
+       "inputs":{
+          "name":"Name",
+          "email":"Email",
+          "message":"Let me know about your idea!",
+          "submit":"Send!"
+       }
+    }
+ }

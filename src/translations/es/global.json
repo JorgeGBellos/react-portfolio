@@ -1,0 +1,70 @@
+{
+    "header":{
+       "hello":"¡Hola! Yo soy",
+       "career":"Ingeniero de Software",
+       "scroll":"Desliza abajo",
+       "cv":"Descarga mi CV",
+       "talk":"¡Hablemos!"
+    },
+    "about":{
+       "getToKnow":"Conoce un poco",
+       "aboutMe":"Acerca de mí",
+       "experience":"Experiencia",
+       "experienceText":"3+ años en el sector",
+       "clients":"Clientes",
+       "clientsText":"30+ clientes satisfechos",
+       "projects":"Proyectos",
+       "projectsText":"35+ Proyectos completados",
+       "aboutText":"¡Hola, soy Jorge Bellos! Ingeniero de Software de profesión y amante de la tecnología de nacimiento. Apasionado con experiencia en desarrollo web. Siempre buscando las mejores alternativas dentro y fuera del mundo del desarrollo. Lleno de ganas de mejorar mi vida y la vida de las personas que me rodean.",
+       "talk":"¡Hablemos!"
+    },
+    "experience":{
+       "skillsIHave":"Descubre mis habilidades",
+       "myExperience":"Mi Experiencia",
+       "frontend":"Desarrollo Front-End",
+       "backend":"Desarrollo Back-End",
+       "otherTechs":"Otras tecnologías",
+       "basic":"Básico",
+       "intermediate":"Intermedio",
+       "experienced":"Experimentado"
+    },
+    "services":{
+       "offer":"¿Qué ofrezco?",
+       "services":"Mis servicios",
+       "service1":{
+          "title":"Diseño UI/UX",
+          "feature":"Esquemas y Prototipos",
+          "feature2":"Diseño Gráfico",
+          "feature3":"Diseño Visual",
+          "feature4":"Diseño Interactivo"
+       },
+       "service2":{
+          "title":"Desarrollo web",
+          "feature":"Desarrollo y mantenimiento de sitios web",
+          "feature2":"Ecommerce",
+          "feature3":"Landing Pages",
+          "feature4":"Sistemas de Manejo de Contenido (CMS)"
+       },
+       "service3":{
+          "title":"Webmaster",
+          "feature":"SEO",
+          "feature2":"Migración de servicios",
+          "feature3":"Integraciones privadas",
+          "feature4":"Actualización de sistemas"
+       }
+    },
+    "portfolio":{
+       "recentWork":"Trabajo reciente",
+       "portfolio":"Mi portafolio",
+       "visit":"Conocer projecto"
+    },
+    "contact":{
+       "contact":"¡Escríbeme y platiquemos!",
+       "inputs":{
+          "name":"Nombre completo",
+          "email":"Correo electrónico",
+          "message":"¡Cuéntame tu idea!",
+          "submit":"¡Contáctame!"
+       }
+    }
+ }

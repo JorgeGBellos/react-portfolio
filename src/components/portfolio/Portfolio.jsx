@@ -3,6 +3,7 @@ import './portfolio.css'
 import IMG1 from '../../assets/portfolio1.jpg'
 import IMG2 from '../../assets/portfolio2.jpg'
 import IMG3 from '../../assets/portfolio3.jpg'
+import { useTranslation } from 'react-i18next'
 
 const projects = [
   {
@@ -22,20 +23,16 @@ const projects = [
     image:IMG3,
     title:'Cierta Gente - Digital Magazine',
     link:'https://www.ciertagente.mx/'
-  },
-  {
-    id:4,
-    image:IMG1,
-    title:'Nowhere - Work Spaces',
-    link:'https://nowhereplazaarbol.com/'
   }
 ]
 
 export const Portfolio = () => {
+  const [ t, i18n ] = useTranslation("global");
+
   return (
     <section id="portfolio">
-      <h5>My Recent Work</h5>
-      <h2>Portfolio</h2>
+      <h5>{t("portfolio.recentWork")}</h5>
+      <h2>{t("portfolio.portfolio")}</h2>
 
       <div className="container portfolio__container">
         {
@@ -49,7 +46,7 @@ export const Portfolio = () => {
                 {title}
               </h3>
               <div className="portfolio__item-cta">
-                <a href={link} className='btn btn-primary' target='_blank'>Live Demo</a>
+                <a href={link} className='btn btn-primary' target='_blank'>{t("portfolio.visit")}</a>
               </div>
             </article>
             )
