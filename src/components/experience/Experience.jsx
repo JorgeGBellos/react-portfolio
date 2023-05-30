@@ -118,7 +118,7 @@ export const Experience = () => {
             <article className="experience__details">
               <BsFillPatchCheckFill className='experience__details-icon'/>
               <div>
-                <h4>Java</h4>
+                <h4>Git</h4>
                 <small className='text-light'>{t("experience.intermediate")}</small>
               </div>
             </article>

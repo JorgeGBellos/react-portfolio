@@ -1,8 +1,8 @@
 import React from 'react'
 import './footer.css'
-import {FaFacebook} from 'react-icons/fa'
+import {TbWorldWww} from 'react-icons/tb'
 import {FaInstagram} from 'react-icons/fa'
-import {FaTwitterSquare} from 'react-icons/fa'
+import {AiFillGithub} from 'react-icons/ai'
 
 export const Footer = () => {
   return (
@@ -11,9 +11,9 @@ export const Footer = () => {
         Jorge Bellos
       </a>
       <div className="footer__socials">
-        <a href="https://facebook.com"><FaFacebook/></a>
-        <a href="https://instagram.com"><FaInstagram/></a>
-        <a href="https://twitter.com"><FaTwitterSquare/></a>
+        <a href="https://ciertagente.mx/"><TbWorldWww/></a>
+        <a href="https://www.instagram.com/jorgegbellos/"><FaInstagram/></a>
+        <a href="https://github.com/JorgeGBellos"><AiFillGithub/></a>
       </div>
       <div className="footer__copyrights">
         <small>&copy; Devindev. All Rights Reserved</small>

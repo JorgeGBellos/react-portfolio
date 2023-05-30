@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import './switch.css'
 import { useTranslation } from "react-i18next";
+import Flag from 'react-world-flags'
 
 export const Switch = () => {
   const [ t, i18n ] = useTranslation("global");
@@ -19,7 +20,8 @@ export const Switch = () => {
     <div className="switch-container">
       <label className="switch">
         <input type="checkbox" onChange={handleChange} />
-        <span className="slider"></span>
+        <span className="slider">
+        </span>
       </label>
     </div>
   );
