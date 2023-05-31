@@ -8,13 +8,13 @@ import { useTranslation } from 'react-i18next'
 const projects = [
   {
     id:1,
-    image:IMG1,
+    image:IMG2,
     title:'Luther Company - Fitness Ecommerce',
     link:'https://www.luther.mx/'
   },
   {
     id:2,
-    image:IMG2,
+    image:IMG1,
     title:'Mitoska Shop - Fashion Ecommerce',
     link:'https://www.mitoska.shop/'
   },
